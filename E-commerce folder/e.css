@@ -1,0 +1,86 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+ }
+
+.navbar {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;           
+  padding: 20px 50px;            
+  background-color:rgba(15, 15, 81, 0.068);
+}
+.nav-links {
+  display: flex;                 
+  list-style: none;              
+  gap: 25px;                    
+}
+.nav-links a {
+  text-decoration: none;         
+  color: #333;                  
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;           
+}
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+ 
+.hero-section {
+  width: 100%;
+  height: 85vh; 
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/prosche-electric-car-01.webp);
+  background-size: cover;    
+  background-position: center;
+  display: flex;
+  align-items: center;        
+  padding-left: 80px;         
+  color: white;                
+}
+
+
+.hero-content h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 15px;
+}
+
+
+.btn-primary {
+  background-color: #0066cc;
+  color: white;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 50px; 
+  font-weight: bold;
+}
+
+.btn-outline {
+  border: 2px solid white;
+  color: white;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+
+
+
+
+

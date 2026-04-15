@@ -1,0 +1,110 @@
+
+body {
+    background-color: #0b0b0b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    padding: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.badge {
+    background-color: #a31d2d;
+    padding: 5px 20px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.content {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.about, .skills-tools {
+    flex: 1; 
+}
+
+
+h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #a31d2d;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    font-size: 0.85rem;
+}
+
+
+.bar-bg {
+    background-color: #333;
+    height: 10px;
+    width: 100%;
+    margin: 8px 0 15px 0;
+}
+
+.bar-fill {
+    background-color: #a31d2d;
+    height: 100%;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+
+.contact-box {
+    margin-top: 30px;
+    display: flex;
+    background-color: #a31d2d;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.contact-label {
+    font-weight: bold;
+    padding-right: 15px;
+    border-right: 1px solid white;
+    margin-right: 15px;
+}
